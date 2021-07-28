@@ -1,4 +1,109 @@
 html body {
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Verdana;
+    background-color: black;
+    text-align: center;
+}
+
+ /* This is the Head of the Page!   */
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
     font-weight: normal;
+    flex-wrap: wrap;
+}
+
+.head .child {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.head a {
+    color: aquamarine;
+}
+
+.head p {
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.head video {
+    margin-top: 30px;
+}
+
+/* This is the Second Section of the Page! */
+
+.head1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.head1 .child1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.head1 p {
+    font-size: 42px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.child1 p {
+    font-size: 21px;
+    color: grey;
+    margin-top: 20px;
+}
+
+.child1 .img1 {
+    margin-top: 30px;
+}
+
+.child1 .p2 {
+    color: white;
+    font-size: 42px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.child1 a {
+    color: aquamarine;
+}
+
+footer {
+    display: flex; 
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer .icon {
+    width: 100%;
+    text-align: end;
+}
+
+footer .far  {
+    text-align: center;
+    font-size: 1.3rem;
+    color: grey;
+    position: relative;
+    right: 10px;
+    top: 30px;
+}
+
+footer p {
+    font-size: 1.5rem;
+    color: grey;
+    margin-right: 10px;
 }
